@@ -1,3 +1,3 @@
-# SocialDanceApp
+# RandomizerJS
 
-Description will be here
+A small app for my friend
