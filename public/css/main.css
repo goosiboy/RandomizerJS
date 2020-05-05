@@ -67,7 +67,7 @@ div.pixel {
 div.stopButton {
     width:var(--stop-width); /*width of your image*/
     height:var(--stop-height); /*height of your image*/
-    background-image:url('stop.png');
+    background-image:url('start.png');
     float:right;
     background-size: var(--stop-width) var(--stop-height);
     margin-top: calc(var(--image1-width) - 280px);
