@@ -5,6 +5,7 @@ let Randomizer = {
     MENU_1_ACTIVE: false,
     MENU_2_ACTIVE: false,
     MENU_3_ACTIVE: false,
+    LOGGER: null,   // TODO: Custom logger writer 
     initRandomizer: function() {
         Randomizer.pushToPositionArray(0);
         Randomizer.pushToPositionArray(120);
@@ -13,12 +14,9 @@ let Randomizer = {
     },
     startRandomizer: function(param) {
         let arrow = null;
-        let initialOffset = null;
-
         if(this.positionArray.length === 0) {
             Randomizer.initRandomizer();
-        }
-        
+        }      
         if(null != param) {
             switch(param) {
                 case Consts.MENU_1:
