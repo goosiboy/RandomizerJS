@@ -1,13 +1,14 @@
 {
-  "name": "chess-timer",
+  "name": "randomizerjs",
   "version": "1.0.0",
-  "description": "Basic chess timer made with javascript",
-  "main": "app.js",
+  "description": "A small randomizer app made for my friend",
+  "main": "playerButtonHandler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "JOinas",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
@@ -21,5 +22,16 @@
   },
   "nodemonConfig": {
     "ext": "js,json,css,html"
-  }
+  },
+  "engines": {
+    "node": "13.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oinasjo/RandomizerJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oinasjo/RandomizerJS/issues"
+  },
+  "homepage": "https://github.com/oinasjo/RandomizerJS#readme"
 }
