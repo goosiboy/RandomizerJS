@@ -1,3 +1,3 @@
-# RandomizerJS
+# Widget
 
-A small app for my friend
+Description

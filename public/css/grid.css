@@ -1,3 +1,5 @@
+/* CSS Grid - logic */
+
 .grid {
     display: grid;
     position: relative;
@@ -5,13 +7,11 @@
                         10% auto 10%;
 
     grid-template-rows: 
-                        1px
                         60px
                         auto
                         70px;
 
     grid-template-areas:
-        "overlayMenu overlayMenu overlayMenu"
         "header header header"
         "left center right"
         "footer footer footer";
@@ -23,7 +23,6 @@
 @media screen and (max-width: 600px) {
     .grid{ 
         grid-template-areas:
-            "overlayMenu"
             "header"
             "left"
             "center"
@@ -31,17 +30,12 @@
             "footer";
 
         grid-template-columns: 100%;
-        grid-template-rows: 1px
-                            100px 
+        grid-template-rows: 100px 
                             20px 
                             1fr
                             20px 
                             30px;
     }
-}
-
-.grid .overlayMenu {
-    grid-area: overlayMenu;
 }
 
 .grid .header {
@@ -64,10 +58,9 @@
     grid-area: footer;
 }
 
-/* Set a border to the grid divs for easier debugging 
+/* Set a border to the grid divs for easier debugging */
 .grid div {
     -webkit-box-shadow:inset 0px 0px 0px 1px rgb(214, 214, 214);
     -moz-box-shadow:inset 0px 0px 0px 1px rgb(214, 214, 214);
     box-shadow:inset 0px 0px 0px 1px rgb(214, 214, 214);
 }
-*/

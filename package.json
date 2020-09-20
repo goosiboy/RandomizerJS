@@ -1,14 +1,15 @@
 {
-  "name": "randomizerjs",
+  "name": "widget",
   "version": "1.0.0",
-  "description": "A small randomizer app made for my friend",
-  "main": "playerButtonHandler.js",
+  "description": "A small widget example",
+  "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "debug": "node --nolazy server.js"
   },
-  "author": "JOinas",
+  "author": "Sangeun",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
@@ -27,11 +28,11 @@
     "node": "13.7.0"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/oinasjo/RandomizerJS.git"
+    "type": "",
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/oinasjo/RandomizerJS/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/oinasjo/RandomizerJS#readme"
+  "homepage": ""
 }
